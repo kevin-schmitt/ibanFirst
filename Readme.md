@@ -156,3 +156,4 @@ response
 - Use symfony normalizer and no trait for filter financial movements
 - Add crud for add and update wallet
 - add docker fro front side
+- add swagger with nelmio
