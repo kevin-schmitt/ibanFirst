@@ -16,18 +16,24 @@ In root of project (check you have permission)
 ```bash
 docker-compose up -d
 make init
-cd front
-npm install
-npm run serve
+sudo chown youUser front # front side is not in a container
+make run
 ```
 
-## Usage
+## Features
 
 For authentification in login form
 ``` json
 login:johndoe
 password:test
 ```
+![Authentification](assets/login.png)
+
+See all wallets
+![Authentification](assets/wallets.png)
+
+See financial movements
+![Authentification](assets/financial_movements.png)
 
 ## Technical description
 File structure back

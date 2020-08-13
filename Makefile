@@ -5,5 +5,5 @@ init:
 	docker-compose exec php74-service bin/console doctrine:fixture:load
 
 run:
-	cd front
-	npm run serve
+	cd front && sudo npm install
+	cd front && npm run serve
