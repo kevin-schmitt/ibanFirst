@@ -4,9 +4,9 @@
 /.env.local.php
 /.env.*.local
 /config/secrets/prod/prod.decrypt.private.php
-/public/bundles/
-/var/
-/vendor/
+/back/public/bundles/
+/back/var/
+/back/vendor/
 ###< symfony/framework-bundle ###
 
 ###> symfony/phpunit-bridge ###
@@ -14,7 +14,7 @@
 .phpunit.result.cache
 /phpunit.xml
 ###< symfony/phpunit-bridge ###
-
+/mysql
 ###> lexik/jwt-authentication-bundle ###
 /config/jwt/*.pem
 ###< lexik/jwt-authentication-bundle ###
