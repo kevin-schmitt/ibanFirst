@@ -14,6 +14,8 @@ This project require docker and docker-compose, you need npm too run front side 
 In root of project (check you have permission)
 
 ```bash
+git clone https://github.com/kevin-schmitt/ibanFirst.git
+cd ibanFirst
 docker-compose up -d
 make init
 sudo chown youUser front # front side is not in a container
