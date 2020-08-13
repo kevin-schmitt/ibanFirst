@@ -13,6 +13,7 @@ return array(
     'App\\Exception\\IbanFirstApiException' => $baseDir . '/src/Exception/IbanFirstApiException.php',
     'App\\Kernel' => $baseDir . '/src/Kernel.php',
     'App\\Repository\\UserRepository' => $baseDir . '/src/Repository/UserRepository.php',
+    'App\\Utils\\FilterArrayTrait' => $baseDir . '/src/Utils/FilterArrayTrait.php',
     'Doctrine\\Bundle\\DoctrineBundle\\Command\\CreateDatabaseDoctrineCommand' => $vendorDir . '/doctrine/doctrine-bundle/Command/CreateDatabaseDoctrineCommand.php',
     'Doctrine\\Bundle\\DoctrineBundle\\Command\\DoctrineCommand' => $vendorDir . '/doctrine/doctrine-bundle/Command/DoctrineCommand.php',
     'Doctrine\\Bundle\\DoctrineBundle\\Command\\DropDatabaseDoctrineCommand' => $vendorDir . '/doctrine/doctrine-bundle/Command/DropDatabaseDoctrineCommand.php',

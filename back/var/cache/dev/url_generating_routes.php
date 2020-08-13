@@ -5,5 +5,6 @@
 return [
     '_preview_error' => [['code', '_format'], ['_controller' => 'error_controller::preview', '_format' => 'html'], ['code' => '\\d+'], [['variable', '.', '[^/]++', '_format', true], ['variable', '/', '\\d+', 'code', true], ['text', '/_error']], [], []],
     'app_wallet_list' => [[], ['_controller' => 'App\\Controller\\WalletController::list'], [], [['text', '/api/wallets']], [], []],
+    'app_wallet_financialmovements' => [['walletId'], ['_controller' => 'App\\Controller\\WalletController::financialMovements'], [], [['text', '/financial_movements'], ['variable', '/', '[^/]++', 'walletId', true], ['text', '/api/wallets']], [], []],
     'api_login_check' => [[], [], [], [['text', '/api/login_check']], [], []],
 ];

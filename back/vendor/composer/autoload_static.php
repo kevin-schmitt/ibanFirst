@@ -431,6 +431,7 @@ class ComposerStaticInite8bffcfae49acd3478480655e751ba71
         'App\\Exception\\IbanFirstApiException' => __DIR__ . '/../..' . '/src/Exception/IbanFirstApiException.php',
         'App\\Kernel' => __DIR__ . '/../..' . '/src/Kernel.php',
         'App\\Repository\\UserRepository' => __DIR__ . '/../..' . '/src/Repository/UserRepository.php',
+        'App\\Utils\\FilterArrayTrait' => __DIR__ . '/../..' . '/src/Utils/FilterArrayTrait.php',
         'Doctrine\\Bundle\\DoctrineBundle\\Command\\CreateDatabaseDoctrineCommand' => __DIR__ . '/..' . '/doctrine/doctrine-bundle/Command/CreateDatabaseDoctrineCommand.php',
         'Doctrine\\Bundle\\DoctrineBundle\\Command\\DoctrineCommand' => __DIR__ . '/..' . '/doctrine/doctrine-bundle/Command/DoctrineCommand.php',
         'Doctrine\\Bundle\\DoctrineBundle\\Command\\DropDatabaseDoctrineCommand' => __DIR__ . '/..' . '/doctrine/doctrine-bundle/Command/DropDatabaseDoctrineCommand.php',
