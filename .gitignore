@@ -5,7 +5,8 @@
 /.env.*.local
 /config/secrets/prod/prod.decrypt.private.php
 /back/public/bundles/
-/back/var/
+/back/var
+/back/vendor
 /back/vendor/
 ###< symfony/framework-bundle ###
 
@@ -16,6 +17,7 @@
 ###< symfony/phpunit-bridge ###
 /mysql
 /front/node_modules
+/front/node_modules/
 ###> lexik/jwt-authentication-bundle ###
 /config/jwt/*.pem
 ###< lexik/jwt-authentication-bundle ###
